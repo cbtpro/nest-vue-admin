@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <Breadcrumb :home="home" :model="items" />
+    <!-- <Breadcrumb :home="home" :model="items" /> -->
     <h1>This is an about page</h1>
   </div>
 </template>

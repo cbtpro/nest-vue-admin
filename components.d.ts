@@ -7,8 +7,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    Background: typeof import('./src/components/background/index.vue')['default']
-    Breadcrumb: typeof import('primevue/breadcrumb')['default']
     DesktopIcon: typeof import('./src/components/mac-desktop/desktop-icon.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
